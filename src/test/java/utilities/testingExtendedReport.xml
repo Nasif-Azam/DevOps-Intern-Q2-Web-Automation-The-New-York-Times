@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel="tests">
+
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test thread-count="5" name="Test">
+<!--        <parameter name="browser" value="chrome"/>-->
+        <classes>
+            <class name="testCases.TC001_TitleCheck"/>
+            <class name="testCases.TC002_HomePageLogo"/>
+            <class name="testCases.TC003_AllImage"/>
+            <class name="testCases.TC004_AllHeadings"/>
+            <class name="testCases.TC005_SearchLatestNews"/>
+            <class name="testCases.TC006_SearchOldestNews"/>
+            <class name="testCases.TC007_LogIn"/>
+            <class name="testCases.TC008_TrendingNews"/>
+        </classes>
+    </test>
+</suite>
