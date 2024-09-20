@@ -9,6 +9,6 @@ public class TC003_AllImage extends BaseClass {
     void total_num_images(){
         HomePage allImage = new HomePage(driver);
         // Validation
-        Assert.assertEquals(allImage.allImageChecker(), 109); // Expected values are depends on server fetches
+        Assert.assertEquals(allImage.allImageChecker(), 93); // Expected values are depends on server fetches
     }
 }
