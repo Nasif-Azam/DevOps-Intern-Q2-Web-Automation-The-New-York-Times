@@ -10,12 +10,9 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import testCases.BaseClass;
 
-import java.awt.*;
-import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
 
 public class ExtentReportManager implements ITestListener {
     public ExtentSparkReporter sparkReporter;
@@ -65,18 +62,20 @@ public class ExtentReportManager implements ITestListener {
         test = extent.createTest(result.getTestClass().getName());
         test.assignCategory(result.getMethod().getGroups());
 
-        test.log(Status.FAIL, result.getName()+"Got Failed");
+        test.log(Status.FAIL, result.getName() + " Got Failed");
         test.log(Status.INFO, result.getThrowable().getMessage());
 
         try {
-            String imgPath = new BaseClass().captureScreen(result.getName());
+            // Capture screenshot and add it to the report
+            String imgPath = new BaseClass().captureScreen(result.getTestClass().getName());
+            // Add the screenshot to ExtentReports
             test.addScreenCaptureFromPath(imgPath);
-        } catch (IOException e1){
+            // Log the failure details after the screenshot is added
+            test.log(Status.FAIL, "Test case FAILED is: " + result.getName());
+            test.log(Status.FAIL, "Test case FAILED cause is: " + result.getThrowable());
+        } catch (IOException e1) {
             e1.printStackTrace();
         }
-
-        test.log(Status.FAIL, "Test case FAILED is: "+result.getName());
-        test.log(Status.FAIL, "Test case FAILED cause is: "+result.getThrowable());
     }
 
     public void onTestSkipped(ITestResult result) {

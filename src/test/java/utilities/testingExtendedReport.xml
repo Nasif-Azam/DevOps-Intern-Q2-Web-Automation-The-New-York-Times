@@ -18,8 +18,8 @@
             <class name="testCases.TC004_AllHeadings"/>
             <class name="testCases.TC005_SearchLatestNews"/>
             <class name="testCases.TC006_SearchOldestNews"/>
-            <class name="testCases.TC007_LogIn"/>
-            <class name="testCases.TC008_TrendingNews"/>
+            <class name="testCases.TC008_LogIn"/>
+            <class name="testCases.TC009_TrendingNews"/>
         </classes>
     </test>
 </suite>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="WARN">
+<Configuration status="INFO">
     <Properties>
-        <Property name="basePath">./logs</Property>
+        <Property name="basePath">E:\Collection\Programming Languages\Java\HybridFrameWork_The_NewYork_Times\logs</Property>
     </Properties>
 
     <Appenders>
@@ -10,9 +10,11 @@
         </Console>
 
         <RollingFile name="File" fileName="${basePath}/automation.log"
-                     filePattern="${basePath}/automation-%d{yyyy-MM-dd}.log">
+                     filePattern="${basePath}/automation.log.%d{yyyy-MM-dd}">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
-            <SizeBasedTriggeringPolicy size="5MB" />
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+            </Policies>
         </RollingFile>
     </Appenders>
 

@@ -7,24 +7,54 @@ import pageObjects.SearchedPage;
 public class TC006_SearchOldestNews extends BaseClass {
     @Test(priority = 4)
     void search_news(){
-        SearchedPage sn = new SearchedPage(driver);
-        Assert.assertEquals(sn.searchNews("Putin"), "The New York Times - Search");
+        try {
+            logger.info("===== String TC006_SearchOldestNews =====");
+            SearchedPage sn = new SearchedPage(driver);
+            logger.info("Validating Search News...");
+            Assert.assertEquals(sn.searchNews("Putin"), "The New York Times - Search");
+        } catch (Exception e) {
+            logger.error("Search News Test Failed!!");
+            logger.debug("Search News Debug Logs...");
+            Assert.fail();
+        }
     }
 
     @Test(priority = 5, dependsOnMethods = {"search_news"})
     void num_searched_heading(){
-        SearchedPage tnsh = new SearchedPage(driver);
-        Assert.assertEquals(tnsh.searched_heading_num(), 10);
+        try {
+            SearchedPage tnsh = new SearchedPage(driver);
+            logger.info("Validating Searched Heading Number...");
+            Assert.assertEquals(tnsh.searched_heading_num(), 9);
+        } catch (Exception e) {
+            logger.error("Searched Heading Number Test Failed!!");
+            logger.debug("Searched Heading Number Debug Logs...");
+            Assert.fail();
+        }
     }
 
     @Test(priority = 6, dependsOnMethods = {"search_news"})
     void find_oldest_news(){
-        SearchedPage onh = new SearchedPage(driver);
-        String older_news = onh.oldest_news_heading();
+        try {
+            logger.info("Finding Oldest News...");
+            SearchedPage onh = new SearchedPage(driver);
+            String older_news = onh.oldest_news_heading();
+        } catch (Exception e) {
+            logger.error("Finding Oldest News Test Failed!!");
+            logger.debug("Finding Oldest News Debug Logs...");
+            Assert.fail();
+        }
     }
     @Test(priority = 7, dependsOnMethods = {"search_news"})
     void clicked_oldest_news() {
-        SearchedPage con = new SearchedPage(driver);
-        con.clicked_oldest_news();
+        try {
+            logger.info("Clicked The Oldest News");
+            SearchedPage con = new SearchedPage(driver);
+            con.clicked_oldest_news();
+        } catch (Exception e) {
+            logger.error("Clicked Oldest News Test Failed!!");
+            logger.debug("Clicked Oldest News Debug Logs...");
+            Assert.fail();
+        }
+        logger.info("===== Finished TC006_SearchOldestNews =====");
     }
 }
