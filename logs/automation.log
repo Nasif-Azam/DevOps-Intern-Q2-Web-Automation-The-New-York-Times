@@ -1,0 +1,58 @@
+02:04:27.363 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Collection\Programming Languages\Java\HybridFrameWork_The_NewYork_Times\src\test\java\utilities\testingExtendedReport.xml
+
+02:04:27.905 [main] INFO  testCases.TC001_TitleCheck - Logger is configured and working.
+02:05:43.743 [main] INFO  testCases.TC002_HomePageLogo - Logger is configured and working.
+02:06:02.586 [main] INFO  testCases.TC003_AllImage - Logger is configured and working.
+02:06:22.639 [main] INFO  testCases.TC004_AllHeadings - Logger is configured and working.
+02:07:01.652 [main] INFO  testCases.TC005_SearchLatestNews - Logger is configured and working.
+02:07:27.476 [main] INFO  testCases.TC006_SearchOldestNews - Logger is configured and working.
+02:09:39.211 [main] INFO  testCases.TC007_LogIn - Logger is configured and working.
+02:10:24.283 [main] INFO  testCases.TC008_TrendingNews - Logger is configured and working.
+12:21:00.403 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Collection\Programming Languages\Java\HybridFrameWork_The_NewYork_Times\src\test\java\utilities\testingExtendedReport.xml
+
+12:21:01.710 [main] INFO  testCases.TC001_TitleCheck - Logger is configured and working.
+12:21:33.215 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mdnas\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
+12:21:59.178 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Collection\Programming Languages\Java\HybridFrameWork_The_NewYork_Times\src\test\java\utilities\testingExtendedReport.xml
+
+12:21:59.758 [main] INFO  testCases.TC003_AllImage - Logger is configured and working.
+12:23:20.787 [main] INFO  testCases.TC004_AllHeadings - Logger is configured and working.
+12:26:24.036 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Collection\Programming Languages\Java\HybridFrameWork_The_NewYork_Times\src\test\java\utilities\testingExtendedReport.xml
+
+12:26:24.572 [main] INFO  testCases.TC001_TitleCheck - Logger is configured and working.
+12:27:02.530 [main] INFO  testCases.TC002_HomePageLogo - Logger is configured and working.
+12:27:39.125 [main] INFO  testCases.TC003_AllImage - Logger is configured and working.
+12:28:21.065 [main] INFO  testCases.TC004_AllHeadings - Logger is configured and working.
+12:28:55.543 [main] INFO  testCases.TC005_SearchLatestNews - Logger is configured and working.
+12:30:39.721 [main] INFO  testCases.TC006_SearchOldestNews - Logger is configured and working.
+12:32:34.127 [main] INFO  testCases.TC007_LogIn - Logger is configured and working.
+12:33:37.401 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Collection\Programming Languages\Java\HybridFrameWork_The_NewYork_Times\src\test\java\utilities\testingExtendedReport.xml
+
+12:33:38.049 [main] INFO  testCases.TC001_TitleCheck - Logger is configured and working.
+12:34:46.841 [main] INFO  testCases.TC002_HomePageLogo - Logger is configured and working.
+12:35:21.362 [main] INFO  testCases.TC003_AllImage - Logger is configured and working.
+12:35:54.468 [main] INFO  testCases.TC004_AllHeadings - Logger is configured and working.
+12:36:28.906 [main] INFO  testCases.TC005_SearchLatestNews - Logger is configured and working.
+12:37:18.109 [main] INFO  testCases.TC006_SearchOldestNews - Logger is configured and working.
+12:39:18.623 [main] INFO  testCases.TC007_LogIn - Logger is configured and working.
+12:40:25.235 [main] INFO  testCases.TC008_TrendingNews - Logger is configured and working.
+12:44:05.667 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  E:\Collection\Programming Languages\Java\HybridFrameWork_The_NewYork_Times\src\test\java\utilities\testingExtendedReport.xml
+
+12:44:06.171 [main] INFO  testCases.TC001_TitleCheck - Logger is configured and working.
+12:44:46.812 [main] INFO  testCases.TC002_HomePageLogo - Logger is configured and working.
+12:45:22.831 [main] INFO  testCases.TC003_AllImage - Logger is configured and working.
+12:46:05.740 [main] INFO  testCases.TC004_AllHeadings - Logger is configured and working.
+12:46:40.344 [main] INFO  testCases.TC005_SearchLatestNews - Logger is configured and working.
+12:48:10.468 [main] INFO  testCases.TC006_SearchOldestNews - Logger is configured and working.
+12:50:23.723 [main] INFO  testCases.TC007_LogIn - Logger is configured and working.
+12:51:23.908 [main] INFO  testCases.TC008_TrendingNews - Logger is configured and working.
+12:54:50.572 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\mdnas\AppData\Local\JetBrains\IdeaIC2024.2\temp-testng-customsuite.xml
+
