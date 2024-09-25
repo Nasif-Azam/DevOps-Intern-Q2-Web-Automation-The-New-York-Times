@@ -22,15 +22,15 @@
 
 ## Dependenies
 <a href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java" target="blank">Selenium</a> <br>
-<a href="https://mvnrepository.com/artifact/org.apache.poi/poi" target="blank">Excel File poi</a> 
+<a href="https://mvnrepository.com/artifact/org.apache.poi/poi" target="blank">Excel File poi</a> <br>
 <a href="https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml" target="blank">Excel File poi-ooxml</a> <br>
-<a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api" target="blank">Logs api</a> 
-<a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core" target="blank">Logs core</a> 
+<a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api" target="blank">Logs api</a> <br>
+<a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core" target="blank">Logs core</a> <br>
 <a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl" target="blank">Logs slf4j-impl</a> <br>
-<a href="https://mvnrepository.com/artifact/org.testng/testng" target="blank">TestNG</a> 
+<a href="https://mvnrepository.com/artifact/org.testng/testng" target="blank">TestNG</a> <br>
 <a href="https://mvnrepository.com/artifact/com.aventstack/extentreports" target="blank">TestNG Extent Reports</a> <br>
-<a href="https://mvnrepository.com/artifact/commons-io/commons-io" target="blank">TestNG commons-io</a> 
-<a href="https://mvnrepository.com/artifact/org.apache.commons/commons-lang3" target="blank">TestNG commons-lang3</a> 
+<a href="https://mvnrepository.com/artifact/commons-io/commons-io" target="blank">TestNG commons-io</a> <br>
+<a href="https://mvnrepository.com/artifact/org.apache.commons/commons-lang3" target="blank">TestNG commons-lang3</a> <br>
 
 ## Run Project
 <p align="center">
