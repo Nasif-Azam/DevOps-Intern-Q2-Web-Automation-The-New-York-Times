@@ -20,26 +20,19 @@
   <em>Figure 2: Folder Struture</em>
 </p>
 
-
+## Dependenies
 <a href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java" target="blank">Selenium</a>
+<a href="https://mvnrepository.com/artifact/org.apache.poi/poi" target="blank">Excel File poi</a>
+<a href="https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml" target="blank">Excel File poi-ooxml</a>
+<a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api" target="blank">Logs api</a>
+<a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core" target="blank">Logs core</a>
+<a href="https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl" target="blank">Logs slf4j-impl</a>
+<a href="https://mvnrepository.com/artifact/org.testng/testng" target="blank">TestNG</a>
+<a href="https://mvnrepository.com/artifact/com.aventstack/extentreports" target="blank">TestNG Extent Reports</a>
+<a href="https://mvnrepository.com/artifact/commons-io/commons-io" target="blank">TestNG commons-io</a>
+<a href="https://mvnrepository.com/artifact/org.apache.commons/commons-lang3" target="blank">TestNG commons-lang3</a>
 
-
-<p>Selenium</p>
-<!-- <a href="https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java" /> -->
-[Selenium](https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java)
-<p>Excel File</p>
-[Excel File](https://mvnrepository.com/artifact/org.apache.poi/poi)
-[Excel File](https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml)
-<p>Logs</p>
-[Logs](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api)
-[Logs](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core)
-[Logs (Optional)](https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl)
-<p>Test NG Reports</p>
-[Test NG Reports](https://mvnrepository.com/artifact/org.testng/testng)
-[Extent Reports](https://mvnrepository.com/artifact/com.aventstack/extentreports)
-[Extent Reports](https://mvnrepository.com/artifact/commons-io/commons-io)
-[Extent Reports](https://mvnrepository.com/artifact/org.apache.commons/commons-lang3)
-
+## Run Project
 <p align="center">
   <img src="Instructions/3.PNG" alt="Instructions">
   <br>
