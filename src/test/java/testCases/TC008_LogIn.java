@@ -29,7 +29,7 @@ public class TC008_LogIn extends BaseClass {
         LoginPage lp = new LoginPage(driver);
         try {
             logger.info("Set User Name");
-            lp.setUserName("nasifazam.batterylowinteractive@gmail.com");
+            lp.setUserName("abc@gmail.com");
             logger.info("Clicked Continue Button");
             lp.contUserName();
             logger.info("Set Password");
